@@ -6,15 +6,15 @@ import pfp from '../../images/soorajpic.jpg';
 
 const Home = () => {
   return (
-    <div className="container mx-auto fade-in" id="home">
-      <div className="flex flex-col justify-center items-center lg:flex-row">
+    <div className="container mx-auto fade-in " id="home">
+      <div className="flex flex-col justify-center items-center min-h-screen lg:flex-row">
         <div className="w-full lg:w-1/2 text-center lg:text-left">
           <div className="text-4xl md:text-7xl font-bold leading-snug md:leading-relaxed">
             <h1>Hi,</h1>
             <h1>
               I'm
               <Typewriter
-                words={[" an Engineer", " a developer", " a student", " Sooraj"]}
+                words={[" an Engineer", " a developer", " a student", " Sooraj."]}
                 loop={1}
                 cursor
                 cursorStyle='|'
@@ -26,7 +26,7 @@ const Home = () => {
            
           </div>
           <button
-                className="my-5 mx-3 hover:-translate-y-1 bg-indigo-300 px-5 py-2 rounded-full transition duration-200 "
+                className="text-slate-700 my-5 mx-3 hover:-translate-y-1 bg-indigo-200 px-5 py-2 rounded-full transition duration-200 "
             >
                 Contact Me
             </button>
