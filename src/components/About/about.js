@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import pfp from "../../images/soorajpic.jpg";
+import gt from "../../images/gtpicture.jpg";
 
 const About = () => {
   const expertiseData = [
@@ -32,7 +32,7 @@ const About = () => {
   }, [expertiseData]);
 
   return (
-    <div className="container mx-auto pt-10 min-h-screen px-4" id="about">
+    <div className="container mx-auto pt-20 min-h-screen px-4" id="about">
       <div className="flex flex-col items-center">
         <div className="text-center w-full mb-6">
           <h1 className="text-3xl sm:text-4xl font-bold mb-4">About Me</h1>
@@ -73,7 +73,7 @@ const About = () => {
           <div className="w-full lg:w-1/2 flex items-center justify-center px-4">
             <img 
               ref={imageRef} 
-              src={pfp} 
+              src={gt} 
               alt="Profile" 
               className="object-cover w-full h-full max-h-screen rounded-md"
             />
