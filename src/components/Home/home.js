@@ -14,7 +14,7 @@ const Home = () => {
             <h1>
               I'm
               <Typewriter
-                words={[" an Engineer", " a developer", " a student", " Sooraj."]}
+                words={[" an engineer", " a developer", " a student", " Sooraj."]}
                 loop={1}
                 cursor
                 cursorStyle='|'
