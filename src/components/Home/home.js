@@ -34,7 +34,7 @@ const Home = () => {
           </div>
           <button
                 onClick={handleScrollToContact}
-                className="text-slate-600 my-5 mx-3 hover:-translate-y-1 bg-indigo-200 px-5 py-2 rounded-full transition duration-200 "
+                className="text-slate-600 my-5 mx-3 hover:bg-indigo-400 bg-indigo-200 px-5 py-2 rounded-full"
             >
                 Contact Me
             </button>
