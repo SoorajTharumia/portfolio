@@ -48,7 +48,7 @@ const About = () => {
         <div className="flex flex-col mb-10 lg:flex-row items-center w-full space-y-4 lg:space-y-0 lg:space-x-4">
           <div 
             ref={expertiseBoxRef} 
-            className="w-full lg:w-1/2 rounded-md shadow-lg text-slate-600 bg-indigo-200 border border-gray-300 p-4"
+            className="w-full rounded-md shadow-lg text-slate-600 bg-indigo-200 border border-gray-300 p-4"
           >
             <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Expertise</h1>
             <div className="space-y-1">
@@ -70,14 +70,7 @@ const About = () => {
               ))}
             </div>
           </div>
-          <div className="w-full lg:w-1/2 flex items-center justify-center px-4">
-            <img 
-              ref={imageRef} 
-              src={gt} 
-              alt="Profile" 
-              className="object-cover w-full h-full max-h-screen rounded-md"
-            />
-          </div>
+          
         </div>
       </div>
     </div>
