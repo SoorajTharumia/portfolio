@@ -33,7 +33,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
-              <button onClick={toggleMenu} className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 focus:text-white">
+              <button onClick={toggleMenu} className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-gray hover:text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 focus:text-gray">
                 <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                   {isOpen ? (
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
