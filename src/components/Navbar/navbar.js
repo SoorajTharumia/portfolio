@@ -15,20 +15,21 @@ const Navbar = () => {
     }
   };
 
+  
   return (
     <div className="w-full">
-      <nav className="bg-indigo-200 fixed w-full z-50">
+      <nav className="bg-slate-100 fixed w-full z-50 shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="text-slate-600 text-3xl font-bold style={{fontFamily: 'Raleway', 'sans-serif'}}">Sooraj</div>
+              <div className="text-gray text-3xl font-bold style={{fontFamily: 'Raleway', 'sans-serif'}}">Sooraj</div>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#home" onClick={(e) => handleScroll(e, 'home')} className="text-slate-600 hover:bg-indigo-400 px-3 py-2 rounded-md text-lg font-medium">Home</a>
-                <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="text-slate-600 hover:bg-indigo-400 px-3 py-2 rounded-md text-lg font-medium">About Me</a>
-                <a href="#projects" onClick={(e) => handleScroll(e, 'projects')} className="text-slate-600 hover:bg-indigo-400 px-3 py-2 rounded-md text-lg font-medium">Projects</a>
-                <a href="#contact" onClick={(e) => handleScroll(e, 'contact')} className="text-slate-600 hover:bg-indigo-400 px-3 py-2 rounded-md text-lg font-medium">Contact Me</a>
+                <a href="#home" onClick={(e) => handleScroll(e, 'home')} className="text-gray hover:bg-slate-300 px-3 py-2 rounded-md text-lg font-medium">Home</a>
+                <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="text-gray hover:bg-slate-300 px-3 py-2 rounded-md text-lg font-medium">About Me</a>
+                <a href="#projects" onClick={(e) => handleScroll(e, 'projects')} className="text-gray hover:bg-slate-300 px-3 py-2 rounded-md text-lg font-medium">Projects</a>
+                <a href="#contact" onClick={(e) => handleScroll(e, 'contact')} className="text-gray hover:bg-slate-300 px-3 py-2 rounded-md text-lg font-medium">Contact Me</a>
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
