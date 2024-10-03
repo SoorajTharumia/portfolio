@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App" class="bg-slate-100">
       <header className="App-header ">
-        {clarity.init(projectToken)}
         <Navbar/>
         <Home />
         <About />
