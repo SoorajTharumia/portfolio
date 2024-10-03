@@ -11,8 +11,13 @@ import Footer from './components/Footer/footer'
 
 const clarityToken = process.env.CLARITY_TOKEN
 
+
 function App() {
-  
+  // Set the clarity token
+  useEffect(() => {
+    clarity.init(clarityToken);
+  }, []);
+
   return (
     <div className="App" class="bg-slate-100">
       <header className="App-header ">
