@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+// Future projects edited here
 const Projects = () => {
   const projectData = [
     { name: "DigitalEyes", technologies: "Computer-Aided Design, AI/ML, Python", link: "https://drive.google.com/drive/folders/1i37WGHBFEHplghOnFiOVdSsRG2RzDIMb" },
