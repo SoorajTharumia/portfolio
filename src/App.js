@@ -8,6 +8,7 @@ import Project from './components/Projects/projects'
 import Contact from './components/Contact/contact'
 import Navbar from './components/Navbar/navbar'
 import Footer from './components/Footer/footer'
+import WorkHistory from './components/WorkHistory/WorkHistory'
 
 const clarityToken = process.env.CLARITY_TOKEN
 
@@ -24,6 +25,7 @@ function App() {
         <Navbar/>
         <Home />
         <About />
+        <WorkHistory />
         <Project />
         <Contact />
         <Footer/>
