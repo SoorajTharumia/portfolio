@@ -9,7 +9,7 @@ const WorkHistory = () => {
     {
       company: "Capital One Financial Corporation",
       position: "Software Engineering Intern",
-      duration: "June 2024 - August 2024",
+      duration: "June 2025 - August 2025",
       location: "Dallas, TX",
       description: "Engineered real-time event pipelines and automated critical security workflows to improve data processing efficiency and system integrity.",
       technologies: "Python, FastAPI, SQL, XML, Beanshell Scripting, Agile Framework, SDLC Pipeline",
